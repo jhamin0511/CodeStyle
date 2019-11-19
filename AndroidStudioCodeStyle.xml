@@ -53,7 +53,7 @@
                 <AND>
                   <NAME>.*:id</NAME>
                   <XML_ATTRIBUTE />
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android\n</XML_NAMESPACE>
                 </AND>
               </match>
             </rule>
@@ -64,7 +64,7 @@
                 <AND>
                   <NAME>.*:name</NAME>
                   <XML_ATTRIBUTE />
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android\n</XML_NAMESPACE>
                 </AND>
               </match>
             </rule>
@@ -109,7 +109,7 @@
                 <AND>
                   <NAME>.*</NAME>
                   <XML_ATTRIBUTE />
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android\n</XML_NAMESPACE>
                 </AND>
               </match>
               <order>ANDROID_ATTRIBUTE_ORDER</order>
@@ -140,11 +140,11 @@
       <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
       <option name="SPACE_AFTER_COMMA" value="false" />
       <option name="SPACE_BEFORE_COMMA" value="true" />
-      <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="false" />
-      <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="false" />
       <option name="WRAP_ON_TYPING" value="0" />
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="4" />
+        <option name="TAB_SIZE" value="2" />
       </indentOptions>
     </codeStyleSettings>
   </code_scheme>
